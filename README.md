@@ -1,6 +1,6 @@
 # 我的GitHub图床（基于PicGo）
 
-```java
+```json
 //PicGo配置
 {
   "repo": "", // 仓库名，格式是username/reponame
