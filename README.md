@@ -1,16 +1,5 @@
 # 我的GitHub图床（基于PicGo）
 
-```JavaScript
-//PicGo配置
-{
-  "repo": "", // 仓库名，格式是username/reponame
-  "token": "", // github token
-  "path": "", // 自定义存储路径，比如img/
-  "customUrl": "", // 自定义域名，注意要加http://或者https://
-  "branch": "" // 分支名，默认是master
-}
-```
-
 **1.** 首先你得有一个GitHub账号。注册GitHub就不用我多言。
 
 **2.** 新建一个仓库
@@ -38,6 +27,17 @@
 **4.** 配置PicGo
 
 **注意：**仓库名的格式是`用户名/仓库`，比如我创建了一个叫做`test`的仓库，在PicGo里我要设定的仓库名就是`kelecn/images`。一般我们选择`master`分支即可。然后记得点击确定以生效，然后可以点击`设为默认图床`来确保上传的图床是GitHub。
+
+```JavaScript
+//PicGo配置
+{
+  "repo": "", // 仓库名，格式是username/reponame
+  "token": "", // github token
+  "path": "", // 自定义存储路径，比如img/
+  "customUrl": "", // 自定义域名，注意要加http://或者https://
+  "branch": "" // 分支名，默认是master
+}
+```
 
 ![](https://i.loli.net/2020/10/11/MVezNlYvZGSXuId.png)
 
